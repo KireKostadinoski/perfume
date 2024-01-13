@@ -1,11 +1,12 @@
-body{
+body {
     background-color: bisque;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
-.row{
+.row {
     border-radius: 15px;
 }
 
@@ -13,11 +14,12 @@ body{
     height: 100%;
 }
 
-.par{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-letter-spacing: 3px;
-font-size: 15px;
+.par {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    font-size: 15px;
 }
+
 .par1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -32,27 +34,27 @@ h1 {
     font-size: 30px;
 }
 
-.oldprice{
+.oldprice {
     text-decoration: line-through;
 }
 
-.newprice{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.newprice {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 
 button {
-padding: 10px 62px !important ;    
+    padding: 10px 62px !important;
 
 }
 
-@media screen and ( max-width: 767px ) {
+@media screen and (max-width: 767px) {
     button {
         padding: 10px 107px !important;
     }
 
     .card {
-        max-width: 360px!important;
+        max-width: 360px !important;
     }
 
 }
